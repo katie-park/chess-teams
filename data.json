@@ -1,0 +1,58 @@
+{
+"teams" : {
+    "min" : 4,
+    "max" : 6,
+    "ratings" : [1000, 1300, 1600, 1900, 2200]
+},
+
+"players" : [
+{
+    "name" : "Titus",
+    "rating" : 2295
+}, {
+    "name" : "Vedic",
+    "rating" : 2170,
+    "_comment" : "hates women"
+}, {
+    "name" : "Vishal",
+    "rating" : 2140,
+    "_comment" : "hates women"
+}, {
+    "name" : "Ganesh",
+    "rating" : 2122
+}, {
+    "name" : "Jason",
+    "rating" : 2075
+}, {
+    "name" : "Aasa",
+    "rating" : 2025
+}, {
+    "name" : "Will",
+    "rating" : 1988
+}, {
+    "name" : "Sanjeev",
+    "rating" : 1914
+}, {
+    "name" : "Ryan",
+    "rating" : 1895
+}, {
+    "name" : "Aron",
+    "rating" : 1810
+}, {
+    "name" : "Manav",
+    "rating" : 1798
+}, {
+    "name" : "Jesse",
+    "rating" : 1575
+}, {
+    "name" : "Matthew",
+    "rating" : 1204
+}, {
+    "name" : "Katie",
+    "rating" : 724
+}, {
+    "name" : "Tony",
+    "rating" : null
+}
+]
+}
