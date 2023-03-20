@@ -26,61 +26,61 @@
         },
         {
             "max": 2103.75,
-            "min": 1167.66,
+            "min": 1246.0,
             "name": "Aron",
             "rating": 1810
         },
         {
             "max": 2125.0,
-            "min": 1167.66,
+            "min": 1274.33,
             "name": "Ryan",
             "rating": 1895
         },
         {
             "max": 2129.75,
-            "min": 1167.66,
+            "min": 1280.66,
             "name": "Sanjeev",
             "rating": 1914
         },
         {
             "max": 2151.0,
-            "min": 1167.66,
+            "min": 1305.33,
             "name": "Will",
             "rating": 1988
         },
         {
             "max": 2163.33,
-            "min": 1167.66,
+            "min": 1317.66,
             "name": "Aasa",
             "rating": 2025
         },
         {
             "max": 2180.0,
-            "min": 1167.66,
+            "min": 1334.33,
             "name": "Jason",
             "rating": 2075
         },
         {
             "max": 2201.66,
-            "min": 1167.66,
+            "min": 1350.0,
             "name": "Ganesh",
             "rating": 2122
         },
         {
             "max": 2201.66,
-            "min": 1167.66,
+            "min": 1356.0,
             "name": "Vishal",
             "rating": 2140
         },
         {
             "max": 2201.66,
-            "min": 1167.66,
+            "min": 1366.0,
             "name": "Vedic",
             "rating": 2170
         },
         {
             "max": 2201.66,
-            "min": 1167.66,
+            "min": 1407.66,
             "name": "Titus",
             "rating": 2295
         },
@@ -90,7 +90,7 @@
         },
         {
             "max": 2201.66,
-            "min": 1167.66,
+            "min": 1407.66,
             "name": "Tony",
             "rating": null
         }
