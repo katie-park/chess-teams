@@ -25,10 +25,10 @@ for p in range(len(players)):
     min_ps = [p['rating'] for p in players[0 : 4]]
     max_ps = [p['rating'] for p in players[len(players)-4 : len(players)]]
 
-    if p >= 4:                  # player not already in min
+    if p > 2:                  # player not already in min
         min_ps.pop();
         min_ps.insert(0, players[p]['rating']);
-    if p < len(players)-4:      # player not already in max
+    if p < len(players) - 3:      # player not already in max
         max_ps.pop(0);
         max_ps.append(players[p]['rating'])
     
@@ -36,8 +36,7 @@ for p in range(len(players)):
     max_avg = avg(max_ps)
     
     unrated_players = [p for p in data['players'] if p['rating'] == None]
-    unrateds = min(len(unrated_players), 3)
-    for u in range(unrateds):   # test teams with unrated players
+    for u in range(min(len(unrated_players), 3)):   # test teams with unrated players
         min_ps.pop()
         max_ps.pop(0)
         min_avg = min(min_avg, avg(min_ps))
