@@ -1,6 +1,60 @@
 # chess-teams
-helpers for chess tournament team creation
+currently generates the lowest and highest rated team rating each player can participate in (current output below)
+```
+KATIE (724)
+        min:    1167.66 [724, 1204, 1575]
+        max:    1832.25 [2170, 2295, 724]
 
-idk lol
+MATTHEW (1204)
+        min:    1167.66 [724, 1204, 1575]
+        max:    1952.25 [2170, 2295, 1204]
 
-TO-SO: actually generate teams and stuff
+JESSE (1575)
+        min:    1167.66 [724, 1204, 1575]
+        max:    2045.0  [2170, 2295, 1575]
+
+MANAV (1798)
+        min:    1242.0  [1798, 724, 1204]
+        max:    2100.75 [2170, 2295, 1798]
+
+ARON (1810)
+        min:    1246.0  [1810, 724, 1204]
+        max:    2103.75 [2170, 2295, 1810]
+
+RYAN (1895)
+        min:    1274.33 [1895, 724, 1204]
+        max:    2125.0  [2170, 2295, 1895]
+
+SANJEEV (1914)
+        min:    1280.66 [1914, 724, 1204]
+        max:    2129.75 [2170, 2295, 1914]
+
+WILL (1988)
+        min:    1305.33 [1988, 724, 1204]
+        max:    2151.0  [2170, 2295, 1988]
+
+AASA (2025)
+        min:    1317.66 [2025, 724, 1204]
+        max:    2163.33 [2170, 2295, 2025]
+
+JASON (2075)
+        min:    1334.33 [2075, 724, 1204]
+        max:    2180.0  [2170, 2295, 2075]
+
+GANESH (2122)
+        min:    1350.0  [2122, 724, 1204]
+        max:    2195.66 [2170, 2295, 2122]
+
+VISHAL (2140)
+        min:    1356.0  [2140, 724, 1204]
+        max:    2201.66 [2140, 2170, 2295]
+
+VEDIC (2170)
+        min:    1366.0  [2170, 724, 1204]
+        max:    2201.66 [2140, 2170, 2295]
+
+TITUS (2295)
+        min:    1407.66 [2295, 724, 1204]
+        max:    2201.66 [2140, 2170, 2295]
+```
+TO-DO: actually generate teams and stuff
