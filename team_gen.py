@@ -13,22 +13,22 @@ brainstorming
 '''
 
 def avg(lst):
-    return int(sum(lst)/len(lst) * 100) / 100   # truncates to two decimal places
+    return int(sum(lst)/len(lst) * 100) / 100       # truncate to two decimal places
 
 def json_player(name, rating, min_avg, max_avg):
     return {'name'  : name, 'rating' : rating, 'min' : min_avg, 'max' : max_avg}
 
-new_data = data
-
 # calculate lowest and highest rated team each player can be in
+new_data = data
 for p in range(len(players)):
     min_ps = [p['rating'] for p in players[0 : 4]]
     max_ps = [p['rating'] for p in players[len(players)-4 : len(players)]]
 
-    if p > 2:                  # player not already in min
+    # TO-DO: set top 4 player-based team rating as a global constant (prolly just cleaner)
+    if p > 2:                                       # player not already in min
         min_ps.pop();
         min_ps.insert(0, players[p]['rating']);
-    if p < len(players) - 3:      # player not already in max
+    if p < len(players) - 3:                        # player not already in max
         max_ps.pop(0);
         max_ps.append(players[p]['rating'])
     
@@ -54,8 +54,9 @@ for i in range(len(unrated_players)):
     max_avg_rating = max(avg(max_ps), avg(max_ps[0:3]))
     new_data['players'].append(json_player(unrated_players[i]['name'], unrated_players[i]['rating'], min_avg_rating, max_avg_rating))
 
-sizes = range(data['teams']['min'], data['teams']['max'] + 1)   # possible team sizes
-
 # write to file
-with open('test.json', 'w') as f:
+with open('output.json', 'w') as f:
   json.dump(new_data, f,  sort_keys=True, indent=4, separators=(',', ': '))
+
+# TO-DO: team generation
+sizes = range(data['teams']['min'], data['teams']['max'] + 1)   # potential team sizes
