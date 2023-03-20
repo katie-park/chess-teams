@@ -38,8 +38,8 @@ for p in range(len(players)):
     unrated_players = [p for p in data['players'] if p['rating'] == None]
     unrateds = min(len(unrated_players), 3)
     for u in range(unrateds):   # test teams with unrated players
-        min_ps.pop()
-        max_ps.pop(0)
+        min_ps.pop(0)
+        max_ps.pop()
         min_avg = min(min_avg, avg(min_ps))
         max_avg = max(max_avg, avg(max_ps))
     
